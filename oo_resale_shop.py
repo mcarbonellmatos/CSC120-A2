@@ -27,7 +27,6 @@ class ResaleShop:
         print("Price has been updated to: ", self.price)
 
     def store_inventory(self, newInventory: str):
-        if 
         return {
             'description':self.description,
             'processor_type':self.processor_type,
@@ -38,13 +37,13 @@ class ResaleShop:
             'price': self.price
         }
 
-
     def buy_computer(self, addInventory, price: int, operating_system: str, description: str, processor_type: str, hard_drive_capacity: int, memory: int, year_made: int):
         self.Computer() = addInventory
         
-
+        
 
     def sell_computer(self):
+
 
     def refurbrish_computer(self):
     

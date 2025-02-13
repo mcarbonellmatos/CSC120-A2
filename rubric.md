@@ -39,12 +39,12 @@ _____ 4 pts: Program executes fully & consistently without crashing (exception/f
 
 _____ 1 pt: Classes & class members all have header comments
 
-_____ 1 pt: Clear and consistent indentation
+__YES___ 1 pt: Clear and consistent indentation
 
-_____ 1 pt: Adheres to conventions on naming / capitalization
+__YES___ 1 pt: Adheres to conventions on naming / capitalization
 
-_____ 1 pt: Methods and variables all have clear and descriptive names
+__YES___ 1 pt: Methods and variables all have clear and descriptive names
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+__YES___ 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+__YES___ 1 pt: `reflection.md` contains your reflection on the assignment
