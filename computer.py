@@ -22,21 +22,13 @@ class Computer:
 
     # What methods/functions will you need based on step 2?
 
-    def update_operating_system(self, updatedOS: str):
-        self.operating_system = updatedOS
-        print("operating system was updated to: ", self.operating_system)
-    
-    def pcInformation(self):
-        return {
-            'description':self.description,
-            'processor_type':self.processor_type,
-            'hard_drive_capacity': self.hard_drive_capacity,
-            'memory': self.memory,
-            'operating_system': self.operating_system,
-            'year_made': self.year_made,
-            'price': self.price
-        }
-    
+    def update_operating_system(self, new_os: str):
+        self.operating_system = new_os
+        print("Operating system was updated, new operating system is: ", self.operating_system)
+
+    def update_price(self, newPrice: int):
+        self.price = newPrice
+        print("New price is: ", newPrice)
 
 def main():
     myComputer = Computer("Mac Pro (Late 2013)",
@@ -44,6 +36,6 @@ def main():
         1024, 64,
         "macOS Big Sur", 2013, 1500)
     myComputer.update_operating_system("Sequoia 15.3")
-    print(myComputer.pcInformation())
+    
 
 main()
