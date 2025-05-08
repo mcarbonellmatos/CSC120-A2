@@ -24,11 +24,11 @@ class Computer:
 
     def update_operating_system(self, new_os: str):
         self.operating_system = new_os
-        print("Operating system was updated, new operating system is: ", self.operating_system)
+        print("Nsew operating system is: ", new_os)
 
-    def update_price(self, newPrice: int):
-        self.price = newPrice
-        print("New price is: ", newPrice)
+    def update_price(self, new_price: int):
+        self.price = new_price
+        print("New price is: ", new_price)
 
 def main():
     myComputer = Computer("Mac Pro (Late 2013)",
@@ -36,6 +36,7 @@ def main():
         1024, 64,
         "macOS Big Sur", 2013, 1500)
     myComputer.update_operating_system("Sequoia 15.3")
+    myComputer.update_price(1500) 
     
 
 main()

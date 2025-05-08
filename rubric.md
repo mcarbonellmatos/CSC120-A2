@@ -17,27 +17,27 @@ __YES__ 1 pt: Constructor for `Computer` class is present and sets attributes co
 
 ### Level 2 (3 pts)
 
-____ 1 pt: All expected attributes for `ResaleShop` class are present
+_Yes___ 1 pt: All expected attributes for `ResaleShop` class are present
 
-____ 1 pt: All expected methods for `ResaleShop` class are present
+__Yes__ 1 pt: All expected methods for `ResaleShop` class are present
 
-____ 1 pt: Constructor for `ResaleShop` class is present and sets attributes correctly
+__Yes__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes correctly
 
 ### Level 3 (4 pts)
 
-____ 1 pt: Can successfully add a new `Computer` to the inventory
+__Yes__ 1 pt: Can successfully add a new `Computer` to the inventory
 
-____ 1 pt: Can successfully remove a `Computer` from the inventory
+__Yes__ 1 pt: Can successfully remove a `Computer` from the inventory
 
-____ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+_Yes___ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
-____ 1 pt: Program prints appropriate error messages
+_Yes___ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
-_____ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
+_Yes____ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
-_____ 1 pt: Classes & class members all have header comments
+__Yes___ 1 pt: Classes & class members all have header comments
 
 __YES___ 1 pt: Clear and consistent indentation
 
